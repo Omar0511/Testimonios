@@ -2,6 +2,7 @@
 
 ## Tecnologías
 - React.js
+- React Developer Tools (extensión de Google Chrome), sirve para ver elementos en INSPECCIONAR de REACT.
 
 ###### NOTAS
 ¿Que es React?
