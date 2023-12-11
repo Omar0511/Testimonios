@@ -2,106 +2,113 @@
 
 ## Tecnologías
 - React.js
+- HTML5
+- CSS3
+- JavaScript
+
+### Herramientas
+- Visual Studio Code
 - React Developer Tools (extensión de Google Chrome), sirve para ver elementos en INSPECCIONAR de REACT.
 
 ###### NOTAS
-¿Que es React?
-Biblioteca o Librería de JavaScript de código abierto diseñada para crear interfaces de usuario.
+**¿Qué es React?**
+1. Biblioteca o Librería de JavaScript de código abierto diseñada para crear interfaces de usuario.
+1. Biblioteca: conjunto de implementaciones o subprogramas que podemos usar en nuestro código.
+    - **Ventajas:**
+        - Fácil de aprender y usar.
+        - Componentes reutilizables.
+        -Crear aplicaciones dinámicas.
+        - Buen desempeño.
 
-Biblioteca: conjunto de implementaciones o subprogramas que podemos usar en nuestro código.
+**Componente**
+- Parte de la interfaz de usuario que es independiente y reusable.
+- Se dividen en: Funcionales y De Clase.
 
-Ventajas:
-Fácil de aprender y usar.
-Componentes reutilizables.
-Crear aplicaciones dinámicas.
-Buen desempeño.
+**Componente Funcional:**
+- Función de JS que retorna un elemento de REACT (JSX).
+    - **Características:**
+        - Debe retornar un elemento de React (JSX).
+        - Debe comenzar con una letra mayúscula.
+        - Puede recibir valores si es necesario.
 
-Componente
-Parte de la interfaz de usuario que es independiente y reusable.
-Se dividen en: Funcionales y De Clase.
+**Props:**
+- props = "Propiedades"
+- Argumentos que puede recibir un componente de React.
+- Solo pueden ser enviados de "padre a hijo".
+- Ayuda a crear componentes reusables.
 
-Componente Funcional:
-Función de JS que retorna un elemento de REACT (JSX).
-Características:
-Debe retornar un elemento de React (JSX).
-Debe comenzar con una letra mayúscula.
-Puede recibir valores si es necesario.
+**Componente de Clase:**
+- Clase de JS que retorna un elemento JSX.
+    - **Características:**
+        - Debe extender React.Component.
+        - Debe tener un método render() para retornar un elemento JSX.
+        - Puede recibir valores si es necesario.
 
-Props:
-props = "Propiedades"
-Argumentos que puede recibir un componente de React.
-Solo pueden ser enviados de "padre a hijo".
-Ayuda a crear componentes reusables
+**ESTADO - STATE**
+- Representación en JS del conjunto de propiedades de un componente y sus valores actuales.
 
-Componente de Clase:
-Clase de JS que retorna un elemento JSX.
-Características:
-Debe extender React.Component.
-Debe tener un método render() para retornar un elemento JSX.
-Puede recibir valores si es necesario.
+**¿Por qué Componentes de Clase?**
+- Anteriormente, se usaban para poder trabajar con estados nuestros componentes.
+- En versiones anteriores (16.8), no se podía con componentes funcionales.
 
-ESTADO - STATE
-Representación en JS del conjunto de propiedades de un componente y sus valores actuales.
+**HOOKS:**
+- Permiten agregar un cierto estado al componente.
+- Ahora si podemos asignar y actualizar el estado de un componente funcional con React.
+- Es una función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React.
 
-¿Po qué componentes de Clase?
-Anteriormente, se usaban para poder trabajar con estados nuestros componentes.
-En versiones anteriores (16.8), no se podía con componentes funcionales.
+**Event Listener**
+- Función JS que es ejecutada cuando ocurre un evento específico.
 
-HOOKS:
-Permiten agregar un cierto estado al componente.
-Ahora si podemos asignar y actualizar el estado de un componente funcional con React.
-Es una función especial que te permite trabajar con estados en componentes funcionales y otros aspectos de React.
+**JSX**
+- Entensión de React para la sintaxis de JS.
+- Nos permite describir en JS comó se verán los componentes usando una estructura similar a HTML.
+    - **Ventajas:**
+        - Estructura más fácil de visualizar.
+        - Errores y advertencias más útiles.
+        - Es opcional.
+    - **Elementos:**
+        - Unidades más oequeñitas en React.
+        - Definen lo que se ve en la pantalla.
 
-Event Listener
-Función JS que es ejecutada cuando ocurre un evento específico.
+**Elementos VS Componentes**
+- Los componentes en React están hechos de elementos.
 
-JSX
-Entensión de React para la sintaxis de JS.
-Nos permite describir en JS comó se verán los componentes usando una estructura similar a HTML.
-Ventajas:
-Estructura más fácil de visualizar.
-Errores y advertencias más útiles.
-Es opcional.
-Elementos:
-Unidades más oequeñitas en React.
-Definen lo que se ve en la pantalla.
+**REACT DOM:**
+- Paquete que facilita la interacción y actualización del DOM en aplicaciones en React.
 
-Elementos VS Componentes
-Los componentes en React están hechos de elementos.
+**DOM:**
+- Document Object Model.
+- Representación en el navegador de todos los elementos que conforman una página o aplicación web.
 
-REACT DOM:
-Paquete que facilita la interacción y actualización del DOM en aplicaciones en React.
+- Con JSX, puedes crear y usar cualquier elmento HTML.
+- EN JSX, los elementos HTML se representan con etiquetas en letras minpusculas.
 
-DOM:
-Document Object Model.
-Representación en el navegador de todos los elementos que conforman una página o aplicación web.
+- Los **COMPONENTES** definidos por el usuario comienzan con una letra mayúscula.
 
-Con JSX, puedes crear y usar cualquier elmento HTML.
-EN JSX, los elementos HTML se representan con etiquetas en letras minpusculas.
+**ATRIBUTOS:**
+- Puedes agregar atributos a tus elementos en JSX para especificar ciertas características.
+- Algunos se escriben de forma distina si se comparan con HTML.
 
-Los COMPONENTES definidos por el usuario comienzan con una letra mayúscula.
+**CLASS:**
+- Es una palabra reservada en JS que podemos usar para crear una clase.
+- Por eso necesitamos escribir este atributo de forma distinta en JSX.
 
-ATRIBUTOS:
-Puedes agregar atributos a tus elementos en JSX para especificar ciertas características.
-Algunos se escriben de forma distina si se comparan con HTML.
+- El atributo STYLE, acepta un objeto JS con propiedades CSS escritas en camelCase.
 
-CLASS:
-Es una palabra reservada en JS que podemos usar para crear una clase.
-Por eso necesitamos escribir este atributo de forma distinta en JSX.
+- Al igual que en HTML, los eleemtnos pueden ser anidados en JSX para formar estructuras más complejas.
 
-El atributo STYLE, acepta un objeto JS con propiedades CSS escritas en camelCase.
+**Self-Closing Tag**
+- Elemento que solo posee una etiqueta de apertura ya que no contiene texto u otros elementos.
 
-Al igual que en HTML, los eleemtnos pueden ser anidados en JSX para formar estructuras más complejas.
+- Puedes escribir cualquier expresión válida de JS entre las llaves y su valor será reemplazado.
 
-Self-Closing Tag
-Elemento que solo posee una etiqueta de apertura ya que no contiene texto u otros elementos.
+**Creación del proyecto:**
+- Podemos crear el proyecto desde _POWERSHELL_, nos ubicamos en la **carpeta** donde queremos crear nuestro proyecto.
+- En consola ingresamos el comando: `npx create-react-app nombreProyecto.`
+- Iniciar la app (el server): `npm start`
 
-Puedes escribir cualquier expresión válida de JS entre las llaves y su valor será reemplazado.
-
-Creación del proyecto:
-Podemos crear el proyecto desde POWERSHELL, nos ubicamos en la carpeta donde queremos crear nuestro proyecto.
-En consola ingresamos el comando: npx create-react-app nombreProyecto.
-npm start: iniciar la app (el server).
+### Sitio
+- URL: [Testimonios]()
 
 <!-- 
 ## Getting Started with Create React App
