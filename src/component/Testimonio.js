@@ -17,7 +17,7 @@ function Testimonio(props)
         <div className='contenedor-testimonio'>
             <img 
                 className='imagen-testimonio'
-                src={  }
+                src={ require(`../img/testimonio-${props.imagen}.png`)  }
                 alt='Fotografía de Persona'
             />
 
