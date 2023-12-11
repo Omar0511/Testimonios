@@ -11,8 +11,15 @@ function App() {
     <div className="App">
       <div className='contenedor-principal'>
         <h1>Esto es lo que dicen nuestros alumnos sobre el curso</h1>
-        
-        <Testimonio />
+
+        <Testimonio
+          nombre = 'Emma Bostian'
+          pasi = 'Suecia'
+          imagen = ''
+          cargo = 'Ingeniero de Software'
+          empresa = 'Spotify'
+          testimonio = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.'
+        />
       </div>
     </div>
   );
