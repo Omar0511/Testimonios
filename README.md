@@ -31,6 +31,7 @@ Props:
 props = "Propiedades"
 Argumentos que puede recibir un componente de React.
 Solo pueden ser enviados de "padre a hijo".
+Ayuda a crear componentes reusables
 
 Componente de Clase:
 Clase de JS que retorna un elemento JSX.

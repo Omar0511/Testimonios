@@ -11,6 +11,7 @@ function App() {
     <div className="App">
       <div className='contenedor-principal'>
         <h1>Esto es lo que dicen nuestros alumnos sobre el curso</h1>
+        
         <Testimonio />
       </div>
     </div>
