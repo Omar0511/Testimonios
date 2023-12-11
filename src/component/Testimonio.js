@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/styles.css';
 
 /*
     EXPORTACIÓN NOMBRADA
@@ -15,8 +16,8 @@ function Testimonio()
     return (
         <div className='contenedor-testimonio'>
             <img 
-                className='imagentestimonio'
-                src={ require('../img/testimonio-shawn.png') }
+                className='imagen-testimonio'
+                src={ require('../img/testimonio-emma.png') }
                 alt='Fotografía de Persona'
             />
 
@@ -24,7 +25,7 @@ function Testimonio()
                 <p className='nombre-testimonio'>Emma Bostian en Suecia</p>
                 <p className='cargo-testimonitos'>Ingeniería de Software en Shopify</p>
                 <p className='texto-testimonio'>
-                    "Siempre he tenido problemas para aprender JavaScript"
+                    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
                 </p>
             </div>
         </div>
