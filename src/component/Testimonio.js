@@ -7,6 +7,7 @@ import React from 'react';
     En el archivo de App.js, en el import, al llamar a Testimonio
     tenemos que agregar unas llaves, ejemplo:
     import { Testimonio } from './component/Testimonio';
+    Con esto podemos exportar varios elementos, no solo 1 como la exportacion por defecto
 */
 
 function Testimonio()
@@ -30,5 +31,5 @@ function Testimonio()
     );
 }
 
-// EXportación por defecto
+// Exportación por defecto, solo podemos exportar 1 elemento
 export default Testimonio;

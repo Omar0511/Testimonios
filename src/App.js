@@ -9,7 +9,10 @@ import Testimonio from './component/Testimonio';
 function App() {
   return (
     <div className="App">
-      <Testimonio />
+      <div>
+        <h1>Esto es lo que dicen nuestros alumnos sobre el curso</h1>
+        <Testimonio />
+      </div>
     </div>
   );
 }
