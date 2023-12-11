@@ -14,7 +14,7 @@ function App() {
 
         <Testimonio
           nombre = 'Shawn Wang'
-          pasi = 'Singapur'
+          pais = 'Singapur'
           imagen = 'shawn'
           cargo = 'Ingeniero de Software'
           empresa = 'Amazon'
@@ -23,7 +23,7 @@ function App() {
 
         <Testimonio
           nombre = 'Sarah Chima'
-          pasi = 'Nigeria'
+          pais = 'Nigeria'
           imagen = 'sarah'
           cargo = 'Ingeniero de Software'
           empresa = 'ChatDesk'
@@ -32,7 +32,7 @@ function App() {
 
         <Testimonio
           nombre = 'Emma Bostian'
-          pasi = 'Suecia'
+          pais = 'Suecia'
           imagen = 'emma'
           cargo = 'Ingeniero de Software'
           empresa = 'Spotify'

@@ -22,8 +22,14 @@ function Testimonio(props)
             />
 
             <div className='contenedor-texto-testimonio'>
-                <p className='nombre-testimonio'>{props.nombre} en {props.pais}</p>
-                <p className='cargo-testimonitos'>{props.cargo} en {props.empresa}</p>
+                <p className='nombre-testimonio'>
+                    <span className='texto-negrita'>{props.nombre}</span> en <span className='texto-negrita'>{props.pais}</span>
+                </p>
+
+                <p className='cargo-testimonitos'>
+                    {props.cargo} en <span className='texto-negrita'>{props.empresa}</span>
+                </p>
+
                 <p className='texto-testimonio'>"{props.testimonio}"</p>
             </div>
         </div>

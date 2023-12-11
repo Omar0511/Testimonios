@@ -36,3 +36,7 @@
     font-size: 1.1rem;
     text-align: justify;
 }
+
+.texto-negrita {
+    font-weight: bold;
+}
