@@ -1,5 +1,14 @@
 import React from 'react';
 
+/*
+    EXPORTACIÓN NOMBRADA
+    Si a la función agregamos export al inicio, ejemplo:
+    export function Testimonio()
+    En el archivo de App.js, en el import, al llamar a Testimonio
+    tenemos que agregar unas llaves, ejemplo:
+    import { Testimonio } from './component/Testimonio';
+*/
+
 function Testimonio()
 {
     return (
@@ -21,4 +30,5 @@ function Testimonio()
     );
 }
 
+// EXportación por defecto
 export default Testimonio;
