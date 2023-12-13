@@ -10,6 +10,12 @@
 - Visual Studio Code
 - React Developer Tools (extensión de Google Chrome), sirve para ver elementos en INSPECCIONAR de REACT.
 
+#### Descripción
+- Testimonios de personas
+
+##### Sitio
+- URL: [Testimonios](https://testificacion.netlify.app/)
+
 ###### NOTAS
 **¿Qué es React?**
 1. Biblioteca o Librería de JavaScript de código abierto diseñada para crear interfaces de usuario.
@@ -106,9 +112,6 @@
 - Podemos crear el proyecto desde _POWERSHELL_, nos ubicamos en la **carpeta** donde queremos crear nuestro proyecto.
 - En consola ingresamos el comando: `npx create-react-app nombreProyecto.`
 - Iniciar la app (el server): `npm start`
-
-### Sitio
-- URL: [Testimonios]()
 
 <!-- 
 ## Getting Started with Create React App
