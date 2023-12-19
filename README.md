@@ -2,6 +2,8 @@
 
 ## Tecnologías
 - React.js
+- **Rama: clases**
+    - Se adapto el código con clases
 - HTML5
 - CSS3
 - JavaScript
