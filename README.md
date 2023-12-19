@@ -2,6 +2,7 @@
 
 ## Tecnologías
 - React.js
+    - Clases (se trabajo con CLASES en la RAMA: CLASES)
 - HTML5
 - CSS3
 - JavaScript
