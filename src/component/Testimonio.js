@@ -11,29 +11,31 @@ import '../css/styles.css';
     Con esto podemos exportar varios elementos, no solo 1 como la exportacion por defecto
 */
 
-function Testimonio(props)
+class Testimonio extends React.Component
 {
-    return (
-        <div className='contenedor-testimonio'>
-            <img 
-                className='imagen-testimonio'
-                src={ require(`../img/testimonio-${props.imagen}.png`)  }
-                alt='Fotografía de Persona'
-            />
-
-            <div className='contenedor-texto-testimonio'>
-                <p className='nombre-testimonio'>
-                    <span className='texto-negrita'>{props.nombre}</span> en <span className='texto-negrita'>{props.pais}</span>
-                </p>
-
-                <p className='cargo-testimonitos'>
-                    {props.cargo} en <span className='texto-negrita'>{props.empresa}</span>
-                </p>
-
-                <p className='texto-testimonio'>"{props.testimonio}"</p>
+    render() {
+        return (
+            <div className='contenedor-testimonio'>
+                <img 
+                    className='imagen-testimonio'
+                    src={ require(`../img/testimonio-${this.props.imagen}.png`)  }
+                    alt='Fotografía de Persona'
+                />
+    
+                <div className='contenedor-texto-testimonio'>
+                    <p className='nombre-testimonio'>
+                        <span className='texto-negrita'>{this.props.nombre}</span> en <span className='texto-negrita'>{this.props.pais}</span>
+                    </p>
+    
+                    <p className='cargo-testimonitos'>
+                        {this.props.cargo} en <span className='texto-negrita'>{this.props.empresa}</span>
+                    </p>
+    
+                    <p className='texto-testimonio'>"{this.props.testimonio}"</p>
+                </div>
             </div>
-        </div>
-    );
+        );
+    }
 }
 
 // Exportación por defecto, solo podemos exportar 1 elemento
